@@ -1,28 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Character Encoding -->
     <meta charset="utf-8" />
+    <!-- Webpage Title -->
     <title>TinDog</title>
+    <!-- Embed  fonts from Google Fonts (Ubuntu & Montserrat) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Link external CSS File -->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- JavaScript for Bootstrap -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
+    <!-- Title Section -->
     <section id="title">
-      <!-- Nav Bar -->
+      <!-- Responsive Fluid Container (centers everything inside) -->
+      <div class="container-fluid">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <!-- Brand / Logo -->
+          <a class="navbar-brand" href="#">tindog</a>
+          <!-- Burger menu button for small screens -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Collapsable div contained in burger menu -->
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <!-- Navigation bar list of contents -->
+            <ul class="navbar-nav ml-auto">
+              <!-- List item -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <!-- List item -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <!-- List item -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-      <!-- Title -->
-
-      <div>
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
-      </div>
-      <div>
-        <img src="images/iphone6.png" alt="iphone-mockup" />
+        <!-- Responsive Grid containing 2 columns per row on laptop+, 1 column per row on tablet and mobile -->
+        <!-- Row 1 (12 units) -->
+        <div class="row">
+          <!-- Column 1 taking 6 out of 12 units in lg(laptop+) (allows 2 columns per row) -->
+          <div class="col-lg-6">
+            <!-- Title -->
+            <h1>Meet new and interesting dogs nearby.</h1>
+            <!-- Download buttons -->
+            <button type="button">Download</button>
+            <button type="button">Download</button>
+          </div>
+          <!-- Column 2 taking the other 6 out of 12 units in lg(laptop+) (allows 2 columns per row) -->
+          <div class="col-lg-6">
+            <!-- iPhone Image -->
+            <img src="images/iphone6.png" alt="iphone-mockup" />
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Features -->
+    <!-- Features Section -->
 
     <section id="features">
       <h3>Easy to use.</h3>
@@ -35,7 +114,7 @@
       <p>Find the love of your dog's life or your money back.</p>
     </section>
 
-    <!-- Testimonials -->
+    <!-- Testimonials Section -->
 
     <section id="testimonials">
       <h2>
@@ -50,16 +129,16 @@
     <em>Beverly, Illinois</em> -->
     </section>
 
-    <!-- Press -->
+    <!-- Press Section -->
 
     <section id="press">
-      <img src="images/techcrunch.png" alt="tc-logo" />
+      <img src="images/TechCrunch.png" alt="tc-logo" />
       <img src="images/tnw.png" alt="tnw-logo" />
       <img src="images/bizinsider.png" alt="biz-insider-logo" />
       <img src="images/mashable.png" alt="mashable-logo" />
     </section>
 
-    <!-- Pricing -->
+    <!-- Pricing Section -->
 
     <section id="pricing">
       <h2>A Plan for Every Dog's Needs</h2>
@@ -88,7 +167,7 @@
       <button type="button">Sign Up</button>
     </section>
 
-    <!-- Call to Action -->
+    <!-- Call to Action  Section-->
 
     <section id="cta">
       <h3>Find the True Love of Your Dog's Life Today.</h3>
@@ -96,7 +175,7 @@
       <button type="button">Download</button>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer  Section-->
 
     <footer id="footer">
       <p>© Copyright TinDog - Razvan Stefanin. All rights reserved.</p>
