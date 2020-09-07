@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <!-- Webpage Title -->
     <title>TinDog</title>
+
     <!-- Embed  fonts from Google Fonts (Ubuntu & Montserrat) -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
@@ -18,8 +19,15 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+
     <!-- Link external CSS File -->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- JavaScript for Font Awesome icons (kit-id=737a43383c)-->
+    <script
+      src="https://kit.fontawesome.com/737a43383c.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- JavaScript for Bootstrap -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -89,13 +97,28 @@
             <!-- Title -->
             <h1>Meet new and interesting dogs nearby.</h1>
             <!-- Download buttons -->
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+            <!-- App Store -->
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <span class="fab fa-apple"></span>
+              Download
+            </button>
+            <!-- Google Play -->
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <span class="fab fa-google-play"></span>
+              Download
+            </button>
           </div>
           <!-- Column 2 taking the other 6 out of 12 units in lg(laptop+) (allows 2 columns per row) -->
           <div class="col-lg-6">
-            <!-- iPhone Image -->
-            <img src="images/iphone6.png" alt="iphone-mockup" />
+            <!-- Title Image (iPhone)-->
+            <img
+              class="title-image"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+            />
           </div>
         </div>
       </div>
