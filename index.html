@@ -23,7 +23,7 @@
     <!-- Link external CSS File -->
     <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- JavaScript for Font Awesome icons (kit-id=737a43383c)-->
+    <!-- JavaScript for Font Awesome icons (kit-id=737a43383c) -->
     <script
       src="https://kit.fontawesome.com/737a43383c.js"
       crossorigin="anonymous"
@@ -50,6 +50,7 @@
 
   <body>
     <!-- Title Section -->
+
     <section id="title">
       <!-- Responsive Fluid Container (centers everything inside) -->
       <div class="container-fluid">
@@ -99,6 +100,7 @@
             <!-- Download buttons -->
             <!-- App Store -->
             <button type="button" class="btn btn-dark btn-lg download-button">
+              <!-- Font Awesome Icon -->
               <span class="fab fa-apple"></span>
               Download
             </button>
@@ -107,11 +109,12 @@
               type="button"
               class="btn btn-outline-light btn-lg download-button"
             >
+              <!-- Font Awesome Icon -->
               <span class="fab fa-google-play"></span>
               Download
             </button>
           </div>
-          <!-- Column 2 taking the other 6 out of 12 units in lg(laptop+) (allows 2 columns per row) -->
+          <!-- Column 2 taking 6 out of 12 units in lg(laptop+) (allows 2 columns per row) -->
           <div class="col-lg-6">
             <!-- Title Image (iPhone)-->
             <img
@@ -127,14 +130,38 @@
     <!-- Features Section -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
+      <!-- Responsive Grid containing 3 columns per row on laptop+, 1 column per row on tablet and mobile -->
+      <!-- Row 1 (12 units) -->
+      <div class="row">
+        <!-- Column 1 taking 4 out of 12 units in lg(laptop+) (allows 3 columns per row) -->
+        <div class="feature-box col-lg-4">
+          <!-- Font Awesome Icon -->
+          <span class="icon fas fa-check-circle fa-4x"></span>
+          <!-- Title -->
+          <h3>Easy to use.</h3>
+          <!-- Text -->
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
-
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+        <!-- Column 2 taking 4 out of 12 units in lg(laptop+) (allows 3 columns per row) -->
+        <div class="feature-box col-lg-4">
+          <!-- Font Awesome Icon -->
+          <span class="icon fas fa-bullseye fa-4x"></span>
+          <!-- Title -->
+          <h3>Elite Clientele</h3>
+          <!-- Text -->
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <!-- Column 3 taking 4 out of 12 units in lg(laptop+) (allows 3 columns per row) -->
+        <div class="feature-box col-lg-4">
+          <!-- Font Awesome Icon -->
+          <span class="icon fas fa-heart fa-4x"></span>
+          <!-- Title -->
+          <h3>Guaranteed to Work.</h3>
+          <!-- Text -->
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials Section -->

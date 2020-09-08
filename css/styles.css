@@ -1,14 +1,24 @@
 /********** HTML Tag Selectors **********/
 
+body {
+  font-family: "Montserrat", serif;
+}
+
 h1 {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
 }
 
-body {
+h3 {
   font-family: "Montserrat", serif;
+  font-weight: 700;
 }
+
+p {
+  color: #8f8f8f;
+}
+
 /********** Title Section **********/
 
 #title {
@@ -54,4 +64,24 @@ body {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/********** Features Section **********/
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
 }
