@@ -51,7 +51,7 @@
   <body>
     <!-- Title Section -->
 
-    <section id="title">
+    <section class="colored-section" id="title">
       <!-- Responsive Fluid Container (centers everything inside) -->
       <div class="container-fluid">
         <!-- Navigation Bar -->
@@ -96,7 +96,7 @@
           <!-- Column 1 taking 6 out of 12 units in lg(laptop+) (allows 2 columns per row) -->
           <div class="col-lg-6">
             <!-- Title -->
-            <h1>Meet new and interesting dogs nearby.</h1>
+            <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
             <!-- Download buttons -->
             <!-- App Store -->
             <button type="button" class="btn btn-dark btn-lg download-button">
@@ -129,52 +129,55 @@
 
     <!-- Features Section -->
 
-    <section id="features">
-      <!-- Responsive Grid containing 3 columns per row on laptop+, 1 column per row on tablet and mobile -->
-      <!-- Row 1 (12 units) -->
-      <div class="row">
-        <!-- Column 1 taking 4 out of 12 units in lg(laptop+) (allows 3 columns per row) -->
-        <div class="feature-box col-lg-4">
-          <!-- Font Awesome Icon -->
-          <span class="icon fas fa-check-circle fa-4x"></span>
-          <!-- Title -->
-          <h3>Easy to use.</h3>
-          <!-- Text -->
-          <p>So easy to use, even your dog could do it.</p>
-        </div>
+    <section class="white-section" id="features">
+      <!-- Responsive Fluid Container (centers everything inside) -->
+      <div class="container-fluid">
+        <!-- Responsive Grid containing 3 columns per row on laptop+, 1 column per row on tablet and mobile -->
+        <!-- Row 1 (12 units) -->
+        <div class="row">
+          <!-- Column 1 taking 4 out of 12 units in lg(laptop+) (allows 3 columns per row) -->
+          <div class="feature-box col-lg-4">
+            <!-- Font Awesome Icon -->
+            <span class="icon fas fa-check-circle fa-4x"></span>
+            <!-- Title -->
+            <h3 class="feature-title">Easy to use.</h3>
+            <!-- Text -->
+            <p>So easy to use, even your dog could do it.</p>
+          </div>
 
-        <!-- Column 2 taking 4 out of 12 units in lg(laptop+) (allows 3 columns per row) -->
-        <div class="feature-box col-lg-4">
-          <!-- Font Awesome Icon -->
-          <span class="icon fas fa-bullseye fa-4x"></span>
-          <!-- Title -->
-          <h3>Elite Clientele</h3>
-          <!-- Text -->
-          <p>We have all the dogs, the greatest dogs.</p>
-        </div>
-        <!-- Column 3 taking 4 out of 12 units in lg(laptop+) (allows 3 columns per row) -->
-        <div class="feature-box col-lg-4">
-          <!-- Font Awesome Icon -->
-          <span class="icon fas fa-heart fa-4x"></span>
-          <!-- Title -->
-          <h3>Guaranteed to Work.</h3>
-          <!-- Text -->
-          <p>Find the love of your dog's life or your money back.</p>
+          <!-- Column 2 taking 4 out of 12 units in lg(laptop+) (allows 3 columns per row) -->
+          <div class="feature-box col-lg-4">
+            <!-- Font Awesome Icon -->
+            <span class="icon fas fa-bullseye fa-4x"></span>
+            <!-- Title -->
+            <h3 class="feature-title">Elite Clientele</h3>
+            <!-- Text -->
+            <p>We have all the dogs, the greatest dogs.</p>
+          </div>
+          <!-- Column 3 taking 4 out of 12 units in lg(laptop+) (allows 3 columns per row) -->
+          <div class="feature-box col-lg-4">
+            <!-- Font Awesome Icon -->
+            <span class="icon fas fa-heart fa-4x"></span>
+            <!-- Title -->
+            <h3 class="feature-title">Guaranteed to Work.</h3>
+            <!-- Text -->
+            <p>Find the love of your dog's life or your money back.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Testimonials Section -->
 
-    <section id="testimonials">
+    <section class="colored-section" id="testimonials">
       <!-- Testimonials Carousel -->
       <div id="testimonial-carousel" class="carousel slide" data-ride="false">
         <!-- Div containing carousel items (active class sets the default item that is displayed) -->
         <div class="carousel-inner">
           <!-- Carousel item -->
-          <div class="carousel-item active">
+          <div class="carousel-item container-fluid active">
             <!-- Title -->
-            <h2>
+            <h2 class="testimonial-text">
               I no longer have to sniff other dogs for love. I've found the
               hottest Corgi on TinDog. Woof.
             </h2>
@@ -188,9 +191,9 @@
             <em>Pebbles, New York</em>
           </div>
           <!-- Carousel item -->
-          <div class="carousel-item">
+          <div class="carousel-item container-fluid">
             <!-- Title -->
-            <h2>
+            <h2 class="testimonial-text">
               My dog used to be so lonely, but with TinDog's help, they've found
               the love of their life. I think.
             </h2>
@@ -227,7 +230,7 @@
 
     <!-- Press Section -->
 
-    <section id="press">
+    <section class="colored-section" id="press">
       <!-- Press Images -->
       <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo" />
       <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
@@ -241,9 +244,9 @@
 
     <!-- Pricing Section -->
 
-    <section id="pricing">
+    <section class="white-section" id="pricing">
       <!-- Title -->
-      <h2>A Plan for Every Dog's Needs</h2>
+      <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
       <!-- Subtitle -->
       <p>Simple and affordable price plans for you and your dog.</p>
 
@@ -260,7 +263,7 @@
             </div>
             <div class="card-body">
               <!-- Price -->
-              <h2>Free</h2>
+              <h2 class="price-text">Free</h2>
               <!-- Plan Allowance -->
               <p>5 Matches Per Day</p>
               <p>10 Messages Per Day</p>
@@ -286,7 +289,7 @@
             </div>
             <div class="card-body">
               <!-- Price -->
-              <h2>$49 / mo</h2>
+              <h2 class="price-text">$49 / mo</h2>
               <!-- Plan Allowance -->
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
@@ -309,7 +312,7 @@
             </div>
             <div class="card-body">
               <!-- Price -->
-              <h2>$99 / mo</h2>
+              <h2 class="price-text">$99 / mo</h2>
               <!-- Plan Allowance -->
               <p>Priority Listing</p>
               <p>Unlimited Matches</p>
@@ -327,38 +330,46 @@
 
     <!-- Call to Action  Section-->
 
-    <section id="cta">
-      <!-- Title -->
-      <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
-      <!-- Download buttons -->
-      <!-- App Store -->
-      <button type="button" class="btn btn-dark btn-lg download-button">
-        <!-- Font Awesome Icon -->
-        <span class="fab fa-apple"></span>
-        Download
-      </button>
-      <!-- Google Play -->
-      <button type="button" class="btn btn-light btn-lg download-button">
-        <!-- Font Awesome Icon -->
-        <span class="fab fa-google-play"></span>
-        Download
-      </button>
+    <section class="colored-section" id="cta">
+      <!-- Responsive Fluid Container (centers everything inside) -->
+      <div class="container-fluid">
+        <!-- Title -->
+        <h3 class="big-heading">
+          Find the True Love of Your Dog's Life Today.
+        </h3>
+        <!-- Download buttons -->
+        <!-- App Store -->
+        <button type="button" class="btn btn-dark btn-lg download-button">
+          <!-- Font Awesome Icon -->
+          <span class="fab fa-apple"></span>
+          Download
+        </button>
+        <!-- Google Play -->
+        <button type="button" class="btn btn-light btn-lg download-button">
+          <!-- Font Awesome Icon -->
+          <span class="fab fa-google-play"></span>
+          Download
+        </button>
+      </div>
     </section>
 
     <!-- Footer  Section-->
 
-    <footer id="footer">
-      <!-- Social icons -->
-      <!-- Twitter -->
-      <span class="fab fa-twitter social-icon"></span>
-      <!-- Facebook -->
-      <span class="fab fa-facebook-f social-icon"></span>
-      <!-- Instagram -->
-      <span class="fab fa-instagram social-icon"></span>
-      <!-- Envelope / Email -->
-      <span class="fas fa-envelope social-icon"></span>
-      <!-- Copyright -->
-      <p>© Copyright TinDog - Razvan Stefanin. All rights reserved.</p>
+    <footer class="white-section" id="footer">
+      <!-- Responsive Fluid Container (centers everything inside) -->
+      <div class="container-fluid">
+        <!-- Social icons -->
+        <!-- Twitter -->
+        <span class="fab fa-twitter social-icon"></span>
+        <!-- Facebook -->
+        <span class="fab fa-facebook-f social-icon"></span>
+        <!-- Instagram -->
+        <span class="fab fa-instagram social-icon"></span>
+        <!-- Envelope / Email -->
+        <span class="fas fa-envelope social-icon"></span>
+        <!-- Copyright -->
+        <p>© Copyright TinDog - Razvan Stefanin. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
